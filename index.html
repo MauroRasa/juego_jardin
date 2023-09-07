@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Juegos jardin</title>
+</head>
+<h1>JuegosYa</h1>
+<button id="stopButton">Detener audio</button>
+<body style="background-image: url('imagenes/Fondo.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+        
+    <button id="startButton">Apriete en cualquier lado para continuar</button>
+
+    <div class="fondo_juego">    
+        <div class="juego">
+            <div class="letras">
+                <div class="game1" onclick="playGame('escucha')">Escucha y Elige</div>
+                <div class="game2" onclick="playGame('observa')">Observa y escucha</div>
+            </div>
+            <div class="audios">
+                <audio id="bienvenidaAudio" preload="auto">
+                    <source src="audios/bienvenida.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="greenAudio" preload="auto">
+                    <source src="audios/green.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="blueAudio" preload="auto">
+                    <source src="audios/blue.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="redAudio" preload="auto">
+                    <source src="audios/red.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="yellowAudio" preload="auto">
+                    <source src="audios/yellow.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="orangeAudio" preload="auto">
+                    <source src="audios/orange.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="pinkAudio" preload="auto">
+                    <source src="audios/pink.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="saddlebrownAudio" preload="auto">
+                    <source src="audios/saddlebrown.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="blackAudio" preload="auto">
+                    <source src="audios/black.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="bluevioletAudio" preload="auto">
+                    <source src="audios/blueviolet.mp3" type="audio/mpeg">
+                </audio>
+                <audio id="greyAudio" preload="auto">
+                    <source src="audios/grey.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="boton">
+            
+        </div>
+    </div>
+</body>
+<script src="jardin.js"></script>
+</html>
